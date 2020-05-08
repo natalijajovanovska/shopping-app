@@ -1,0 +1,23 @@
+.add-item {
+    text-align: center;
+    margin: 30px;
+}
+.add-item input, .add-item button, .delete-btn{
+    border-radius: 5px;
+    border: 1px solid rgb(59, 43, 91);
+    padding: 0.7%;
+    margin: 2px;
+}
+::placeholder, .add-item button, .delete-btn{
+    color: rgb(59, 43, 91);
+    font-weight: 500;
+}
+.add-item button, .delete-btn{
+    cursor: pointer;
+}
+.add-btn{
+    background-color: lightgreen;
+}
+.clear-btn, .delete-btn{
+    background-color: tomato;
+}
